@@ -18,7 +18,7 @@ const Home = () => (
   </div>
 )
 
-const Note = (notes) => {
+const Note = ({ notes }) => {
   const id = useParams().id
   const note = notes.find(n => n.id === Number(id))
   return (
@@ -112,7 +112,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <Router>
       <div>
         <Link style={padding} to="/">home</Link>
         <Link style={padding} to="/notes">notes</Link>
@@ -144,13 +144,11 @@ const App = () => {
       <div>
         <i>Note app, Department of Computer Science 2020</i>
       </div>
-    </div>
+    </Router>
   )
 }
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>, 
+  <App />, 
   document.getElementById('root')
 )
