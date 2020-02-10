@@ -18,7 +18,6 @@ const Home = () => (
   </div>
 )
 
-
 const Note = ({ note }) => {
   return (
     <div>
@@ -29,11 +28,11 @@ const Note = ({ note }) => {
   )
 }
 
-const Notes = (props) => (
+const Notes = ({notes}) => (
   <div>
     <h2>Notes</h2>
     <ul>
-      {props.notes.map(note =>
+      {notes.map(note =>
         <li key={note.id}>
           <Link to={`/notes/${note.id}`}>{note.content}</Link>
         </li>
@@ -61,7 +60,7 @@ const Login = (props) => {
     props.onLogin('mluukkai')
     history.push('/')
   }
-  
+
   return (
     <div>
       <h2>login</h2>
@@ -111,12 +110,9 @@ const App = () => {
   }
 
   const match = useRouteMatch('/notes/:id')
-  const getNoteById = () => {
-    if ( match ) {
-      console.log('-->', match.params.id)
-      return notes.find(note => note.id === Number(match.params.id))
-    }
-  }
+  const note = match 
+    ? notes.find(note => note.id === Number(match.params.id))
+    : null
 
   return (
     <div>
@@ -132,7 +128,7 @@ const App = () => {
 
       <Switch>
         <Route path="/notes/:id">
-          <Note note={getNoteById()} />
+          <Note note={note} />
         </Route>
         <Route path="/notes">
           <Notes notes={notes} />
@@ -147,9 +143,9 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-
       <div>
-        <i>Note app, Department of Computer Science 2020</i>
+        <br />
+        <em>Note app, Department of Computer Science 2020</em>
       </div>
     </div>
   )
@@ -158,6 +154,6 @@ const App = () => {
 ReactDOM.render(
   <Router>
     <App />
-  </Router>, 
+  </Router>,
   document.getElementById('root')
 )
