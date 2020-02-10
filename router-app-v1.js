@@ -30,11 +30,11 @@ const Note = ({ notes }) => {
   )
 }
 
-const Notes = (props) => (
+const Notes = ({notes}) => (
   <div>
     <h2>Notes</h2>
     <ul>
-      {props.notes.map(note =>
+      {notes.map(note =>
         <li key={note.id}>
           <Link to={`/notes/${note.id}`}>{note.content}</Link>
         </li>
@@ -112,6 +112,7 @@ const App = () => {
   }
 
   return (
+    <div>
     <Router>
       <div>
         <Link style={padding} to="/">home</Link>
@@ -140,15 +141,16 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-
+    </Router>      
       <div>
-        <i>Note app, Department of Computer Science 2020</i>
+        <br />
+        <em>Note app, Department of Computer Science 2020</em>
       </div>
-    </Router>
+    </div>
   )
 }
 
 ReactDOM.render(
-  <App />, 
+  <App />,
   document.getElementById('root')
 )
