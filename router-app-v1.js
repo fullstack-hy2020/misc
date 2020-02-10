@@ -7,8 +7,8 @@ import {
   Route,
   Link,
   Redirect,
-  useRouteMatch,
   useParams,
+  useHistory,
 } from "react-router-dom"
 
 const Home = () => (
@@ -17,18 +17,6 @@ const Home = () => (
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
   </div>
 )
-
-/*
-const Note = ({ notes }) => {
-  return (
-    <div>
-      <h2>{note.content}</h2>
-      <div>{note.user}</div>
-      <div><strong>{note.important ? 'tärkeä' : ''}</strong></div>
-    </div>
-  )
-}
-*/
 
 const Note = (notes) => {
   const id = useParams().id
@@ -67,11 +55,14 @@ const Users = () => (
 )
 
 const Login = (props) => {
+  const history = useHistory()
+
   const onSubmit = (event) => {
     event.preventDefault()
     props.onLogin('mluukkai')
-    props.history.push('/')
+    history.push('/')
   }
+
   return (
     <div>
       <h2>login</h2>
@@ -120,15 +111,6 @@ const App = () => {
     padding: 5
   }
 
-  /*
-  const match = useRouteMatch('/notes/:id')
-  const getNoteById = () => {
-    if ( match ) {
-      return notes.find(note => note.id === Number(match.params.id))
-    }
-  }
-  */
-
   return (
     <div>
       <div>
@@ -143,7 +125,7 @@ const App = () => {
 
       <Switch>
         <Route path="/notes/:id">
-          <Note note={getNoteById()} />
+          <Note notes={notes} />
         </Route>
         <Route path="/notes">
           <Notes notes={notes} />
