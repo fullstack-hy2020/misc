@@ -14,7 +14,7 @@ const patients: Patient[] = [
         date: '2015-01-02',
         type: 'Hospital',
         specialist: 'MD House',
-        diagnoseCodes: ['S62.5'],
+        diagnosisCodes: ['S62.5'],
         description:
           "Healing time appr. 2 weeks. patient doesn't remember how he got the injury.",
         discharge: {
@@ -38,7 +38,7 @@ const patients: Patient[] = [
         type: 'OccupationalHealthcare',
         specialist: 'MD House',
         employerName: 'HyPD',
-        diagnoseCodes: ['Z57.1', 'Z74.3', 'M51.2'],
+        diagnosisCodes: ['Z57.1', 'Z74.3', 'M51.2'],
         description:
           'Patient mistakenly found himself in a nuclear plant waste site without protection gear. Very minor radiation poisoning. ',
         sickLeave: {
