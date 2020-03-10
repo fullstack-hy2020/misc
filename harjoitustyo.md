@@ -1,6 +1,6 @@
 # Full Stack -websovelluskehitys harjoitustyö 1-10 op
 
-> Tätä harjoitustyötä *ei lasketa* aineopintojen harjoitustyöksi, joita vaaditaan pääaineopiskelijoilta 2 kappaletta, eli et voi korvata Full Stack -harjoitustyöllä esim. tiralabraa.
+> Tätä harjoitustyötä *ei lasketa* aineopintojen harjoitustyöksi, joita vaaditaan tietojenkäsittelytieteen pääaineopiskelijoilta 2 kappaletta, eli et voi korvata Full Stack -harjoitustyöllä esim. tiralabraa.
 
 Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella. Myös React Nativella toteutettu mobiilisovellus on mahdollinen.
 
