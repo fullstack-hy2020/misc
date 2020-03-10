@@ -12,7 +12,9 @@ Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
 Full Stack -kurssin Telegram-kanava https://t.me/fullstackcourse toimii myös harjoitustyön kanavana.
 
-## Ilmoittautuminen
+## Ilmoittautuminen ja aiheen hyväksyminen
+
+Jos käytät harjoitustyössä kurssilta tuttuja tekniikoita, ei aiheen hyväksymistä tarvita. Jos käytät jotain muita tekniikoita, varmista, että aihe sopii lähettämällä emailia osoitteeseen matti.luukkainen@helsinki.fi
 
 Jos et ole Helsingin yliopiston tutkinto-opiskelija, ilmoittaudu kurssille [avoimen yliopiston sivuilla](https://courses.helsinki.fi/en/aytkt21010/133171831) viimeistään siinä vaiheessa kun palautat työn. HY:n opinto-oikeuden omaavien ei tarvitse ilmoittautua kurssille.
 
