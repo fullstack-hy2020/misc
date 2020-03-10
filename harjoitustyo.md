@@ -8,6 +8,8 @@ Sovelluksen backendia ei siis ole pakko toteuttaa Nodella. Backendia ei myöskä
 
 Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. Työ arvostellaan skaalalla hyväksytty/hylätty. Hylkäämiseen voi johtaa ainoastaa se, että et ole itse tehnyt työtäsi tai jos tuntikirjanpito ja GitHub-repositorion commit-historia eivät vastaa toisiaan. Työtunteihin lasketaan kaikki sovelluksen tekemiseen käytetty aika, eli vaikka tekisit backendin jollain muulla tekniikalla kuin Nodella, lasketaan se silti työaikaan.
 
+Työtunteihin _ei lasketa_ kurssin asioiden kertaamiseen käytettyä aikaa.
+
 Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
 Full Stack -kurssin Telegram-kanava https://t.me/fullstackcourse toimii myös harjoitustyön kanavana.
