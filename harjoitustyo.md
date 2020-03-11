@@ -2,7 +2,7 @@
 
 > Tätä harjoitustyötä *ei lasketa* aineopintojen harjoitustyöksi, joita vaaditaan tietojenkäsittelytieteen pääaineopiskelijoilta 2 kappaletta, eli et voi korvata Full Stack -harjoitustyöllä esim. tiralabraa.
 
-Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella. Myös React Nativella toteutettu mobiilisovellus on mahdollinen.
+Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella. Myös React Nativella toteutettu mobiilisovellus on mahdollinen, jolloin suositeltu kehitysalusta on [Expo](https://expo.io/).
 
 Sovelluksen backendia ei siis ole pakko toteuttaa Nodella. Backendia ei myöskään tarvitse toteuttaa itse, valmiit rajapinnat tai palvelut kuten Firebase kelpaavat. Frontend on mahdollista tehdä myös jollain muulla järkevällä tavalla kuin Reactilla, esim. Vue.js:llä. Tällöin olisi hyvä jos sovelluksella olisi Nodella tehty backend.
 
@@ -22,7 +22,7 @@ Jos et ole Helsingin yliopiston tutkinto-opiskelija, ilmoittaudu kurssille [avoi
 
 ## Vaatimukset palautettavalle työlle
 
-GitHub-repositoriosi README.md-tiedostossa tulee olla linkki osoitteeseen, missä sovellus on käynnissä. Jos teet mobiilisovelluksen, sovitaan sovelluksen demoamisesta tapauskohtaisesti.
+GitHub-repositoriosi README.md-tiedostossa tulee olla linkki osoitteeseen, missä sovellus on käynnissä. Expolla toteutetun React Native mobiilisovelluksen kohdalla repositoriossa tulee olla [julkinen linkki](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish), jonka kautta sovelluksen voi käynnistää Expon mobiilisovelluksessa. Muissa tapauksissa sovitaan sovelluksen demoamisesta tapauskohtaisesti.
 
 README:stä täytyy myös löytyä linkki sovelluksen käyttöohjeisiin sekä työaikakirjanpitoon. Sopiva tarkkuustaso työaikakirjanpidolle on [tämä](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). Työaikakirjanpidosta **on myös selvittävä työtuntien yhteenlaskettu määrä**.
 
