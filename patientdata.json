@@ -1,5 +1,4 @@
-{ 
-    "patients": [
+[
     {
         "id": "d2773336-f723-11e9-8f0b-362b9e155667",
         "name": "John McClane",
@@ -39,5 +38,5 @@
         "ssn": "090471-8890",
         "gender": "male",
         "occupation": "Digital evangelist"
-    }]
-}
+    }
+]
