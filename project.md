@@ -8,7 +8,7 @@ Amount of credits is determined by the working hours, where one credit is 17.5 h
 
 It is also do the project as a pair or a team.
 
-The telegram channel forl the Full Stack Course https://t.me/fullstackcourse works also for this project.
+The telegram channel for the Full Stack Course https://t.me/fullstackcourse works also for this project.
 
 ## Attending and registering your subject
 
