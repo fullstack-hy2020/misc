@@ -2,7 +2,7 @@ Numerous people have improved and corrected the material both in content and spe
 
 ### Full stack open 2020
 
-https://github.com/fullstackopen-2019/fullstackopen-hy2020.github.io/graphs/contributors
+https://github.com/fullstack-hy2020/fullstack-hy2020.github.io/graphs/contributors
 
 ### Full stack open 2019
 
