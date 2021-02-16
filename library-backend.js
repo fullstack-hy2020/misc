@@ -31,6 +31,11 @@ let authors = [
  * Yksinkertaisuuden vuoksi tallennamme kuitenkin kirjan yhteyteen tekijän nimen
 */
 
+/*
+ * It might be more sensible to associate a book with its author by storing the author's id in the context of the book, instead of the author's name
+ * However, for the sake of simplicity we will store the author's name with the book
+*/
+
 let books = [
   {
     title: 'Clean Code',
