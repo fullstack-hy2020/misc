@@ -6,7 +6,9 @@ Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella
 
 Sovelluksen backendia ei siis ole pakko toteuttaa Nodella. Backendia ei myöskään tarvitse toteuttaa itse, valmiit rajapinnat tai palvelut kuten Firebase kelpaavat. Frontend on mahdollista tehdä myös jollain muulla järkevällä tavalla kuin Reactilla, esim. Vue.js:llä. Tällöin olisi hyvä jos sovelluksella olisi Nodella tehty backend.
 
-Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. Työ arvostellaan skaalalla hyväksytty/hylätty. Hylkäämiseen voi johtaa ainoastaa se, että et ole itse tehnyt työtäsi tai jos tuntikirjanpito ja GitHub-repositorion commit-historia eivät vastaa toisiaan. Työtunteihin lasketaan kaikki sovelluksen tekemiseen käytetty aika, eli vaikka tekisit backendin jollain muulla tekniikalla kuin Nodella, lasketaan se silti työaikaan.
+Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. Mahdolliset laajuudet suoritukselle ovat 5, 7 ja 10 opintopistettä.
+
+Työ arvostellaan skaalalla hyväksytty/hylätty. Hylkäämiseen voi johtaa ainoastaa se, että et ole itse tehnyt työtäsi tai jos tuntikirjanpito ja GitHub-repositorion commit-historia eivät vastaa toisiaan. Työtunteihin lasketaan kaikki sovelluksen tekemiseen käytetty aika, eli vaikka tekisit backendin jollain muulla tekniikalla kuin Nodella, lasketaan se silti työaikaan.
 
 Työtunteihin _ei lasketa_ kurssin asioiden kertaamiseen käytettyä aikaa.
 
