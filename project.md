@@ -1,10 +1,12 @@
-# Full Stack -web development project 1-10 credits
+# Full Stack -web development project 5, 7 or 10 credits
 
 In the project you create an application of your choice with React and/or Node. Also a mobile application created with React Native is possible.
 
 The backend for the application does not have to be in Node. Backend does not have to be self made, ready interfaces or services such as Firebase will do. Frontend is also possible to make with some other reasonable way than React, e.g. with Vue.js, in which case it is recommended for the application have a Node backend.
 
-Amount of credits is determined by the working hours, where one credit is 17.5 hours. The grading is pass/fail. To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
+Amount of credits is determined by the working hours, where one credit is 17.5 hours. Possble credit amounts for the course are 5, 7 or 10.
+
+The grading is pass/fail. To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
 
 It is also do the project as a pair or a team.
 
@@ -32,7 +34,7 @@ Time keeping and repository commit history must match each other in reason. Do i
 
 If working with a pair or a group, everyone keeps their own hours.
 
-Without keeping the hours, maximum amount of credits is 1.
+Without keeping the hours, any credits can not be given.
 
 ## Finishing the application and grading
 
