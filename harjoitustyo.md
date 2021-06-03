@@ -32,7 +32,7 @@ Työaikakirjanpidon ja repositorion commit-historian tulee vastata toisiaan koht
 
 Pari- tai ryhmätöissä jokaisen on pidettävä omaa työaikakirjanpitoa.
 
-Ilman työaikakirjanpitoa kurssin maksimiopintopistemäärä on 1 op.
+Ilman työaikakirjanpitoa suoritusmerkintää ei voida antaa.
 
 ## Työn valmistuminen ja arvostelu
 
