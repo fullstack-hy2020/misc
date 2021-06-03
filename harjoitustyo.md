@@ -1,4 +1,4 @@
-# Full Stack -websovelluskehitys harjoitustyö 1-10 op
+# Full Stack -websovelluskehitys harjoitustyö 5, 7 tai 10 op
 
 > Tätä harjoitustyötä *ei lasketa* aineopintojen harjoitustyöksi, joita vaaditaan tietojenkäsittelytieteen pääaineopiskelijoilta 2 kappaletta, eli et voi korvata Full Stack -harjoitustyöllä esim. tiralabraa.
 
