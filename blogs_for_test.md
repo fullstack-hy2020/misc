@@ -1,3 +1,4 @@
+```js
 const blogs = [
   {
     _id: "5a422a851b54a676234d17f7",
@@ -48,3 +49,4 @@ const blogs = [
     __v: 0
   }  
 ]
+```
