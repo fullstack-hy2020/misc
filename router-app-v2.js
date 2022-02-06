@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+import { useState } from 'react'
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link,
-  Redirect,
-  useRouteMatch,
-  useHistory,
+  Navigate,
+  useParams,
+  useNavigate,
+  useMatch
 } from "react-router-dom"
+
 
 const Home = () => (
   <div> 
@@ -19,16 +21,17 @@ const Home = () => (
 )
 
 const Note = ({ note }) => {
+
   return (
     <div>
       <h2>{note.content}</h2>
       <div>{note.user}</div>
-      <div><strong>{note.important ? 'tärkeä' : ''}</strong></div>
+      <div><strong>{note.important ? 'important' : ''}</strong></div>
     </div>
   )
 }
 
-const Notes = ({notes}) => (
+const Notes = ({ notes }) => (
   <div>
     <h2>Notes</h2>
     <ul>
@@ -53,12 +56,12 @@ const Users = () => (
 )
 
 const Login = (props) => {
-  const history = useHistory()
+  const navigate = useNavigate()
 
   const onSubmit = (event) => {
     event.preventDefault()
     props.onLogin('mluukkai')
-    history.push('/')
+    navigate('/')
   }
 
   return (
@@ -87,7 +90,7 @@ const App = () => {
     },
     {
       id: 2,
-      content: 'Browser can execute only Javascript',
+      content: 'Browser can execute only JavaScript',
       important: false,
       user: 'Matti Luukkainen'
     },
@@ -101,6 +104,13 @@ const App = () => {
 
   const [user, setUser] = useState(null) 
 
+  const match = useMatch('/notes/:id')
+
+  const note = match 
+    ? notes.find(note => note.id === Number(match.params.id))
+    : null
+
+
   const login = (user) => {
     setUser(user)
   }
@@ -108,11 +118,6 @@ const App = () => {
   const padding = {
     padding: 5
   }
-
-  const match = useRouteMatch('/notes/:id')
-  const note = match 
-    ? notes.find(note => note.id === Number(match.params.id))
-    : null
 
   return (
     <div>
@@ -125,35 +130,19 @@ const App = () => {
           : <Link style={padding} to="/login">login</Link>
         }
       </div>
-
-      <Switch>
-        <Route path="/notes/:id">
-          <Note note={note} />
-        </Route>
-        <Route path="/notes">
-          <Notes notes={notes} />
-        </Route>
-        <Route path="/users">
-          {user ? <Users /> : <Redirect to="/login" />}
-        </Route>
-        <Route path="/login">
-          <Login onLogin={login} />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/notes/:id" element={<Note note={note} />} />  
+        <Route path="/notes" element={<Notes notes={notes} />} />   
+        <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
+        <Route path="/login" element={<Login onLogin={login} />} />
+        <Route path="/" element={<Home />} />      
+      </Routes>   
       <div>
         <br />
-        <em>Note app, Department of Computer Science 2020</em>
+        <em>Note app, Department of Computer Science 2022</em>
       </div>
     </div>
   )
 }
 
-ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById('root')
-)
+ReactDOM.render(<Router><App /></Router>, document.getElementById('root'))
