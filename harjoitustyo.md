@@ -12,7 +12,7 @@ Työtunteihin _ei lasketa_ kurssin asioiden kertaamiseen käytettyä aikaa.
 
 Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
-Full Stack -kurssin Telegram-kanava https://t.me/fullstackcourse toimii myös harjoitustyön kanavana.
+Full Stack -kurssin Discord-kanava https://study.cs.helsinki.fi/discord/join/fullstack toimii myös harjoitustyön kanavana.
 
 ## Ilmoittautuminen ja aiheen hyväksyminen
 
@@ -47,4 +47,4 @@ Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collabora
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
 
-Harjoitustyöt tulee palauttaa 14.3.2022 klo 23:59 mennessä.
+Harjoitustyöt tulee palauttaa 14.3.2023 klo 23:59 mennessä.
