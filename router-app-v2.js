@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { useState } from 'react'
 
 import {
@@ -145,4 +145,4 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(<Router><App /></Router>)

@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { useState } from 'react'
 
 import {
@@ -31,7 +31,7 @@ const Note = ({ notes }) => {
   )
 }
 
-const Notes = ({notes}) => (
+const Notes = ({ notes }) => (
   <div>
     <h2>Notes</h2>
     <ul>
@@ -102,7 +102,7 @@ const App = () => {
     }
   ])
 
-  const [user, setUser] = useState(null) 
+  const [user, setUser] = useState(null)
 
   const login = (user) => {
     setUser(user)
@@ -114,25 +114,25 @@ const App = () => {
 
   return (
     <div>
-    <Router>
-      <div>
-        <Link style={padding} to="/">home</Link>
-        <Link style={padding} to="/notes">notes</Link>
-        <Link style={padding} to="/users">users</Link>
-        {user
-          ? <em>{user} logged in</em>
-          : <Link style={padding} to="/login">login</Link>
-        }
-      </div>
+      <Router>
+        <div>
+          <Link style={padding} to="/">home</Link>
+          <Link style={padding} to="/notes">notes</Link>
+          <Link style={padding} to="/users">users</Link>
+          {user
+            ? <em>{user} logged in</em>
+            : <Link style={padding} to="/login">login</Link>
+          }
+        </div>
 
-      <Routes>
-        <Route path="/notes/:id" element={<Note notes={notes} />} />  
-        <Route path="/notes" element={<Notes notes={notes} />} />   
-        <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
-        <Route path="/login" element={<Login onLogin={login} />} />
-        <Route path="/" element={<Home />} />      
-      </Routes>
-    </Router>      
+        <Routes>
+          <Route path="/notes/:id" element={<Note notes={notes} />} />
+          <Route path="/notes" element={<Notes notes={notes} />} />
+          <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
+          <Route path="/login" element={<Login onLogin={login} />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
       <div>
         <br />
         <em>Note app, Department of Computer Science 2022</em>
@@ -141,4 +141,4 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
