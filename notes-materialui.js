@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { useState } from 'react'
 
 import {
@@ -13,9 +13,9 @@ import {
   Button,
   AppBar,
   Toolbar
-} from '@material-ui/core'
+} from '@mui/material'
 
-import Alert from '@material-ui/lab/Alert'
+import Alert from '@mui/material/Alert'
 
 import {
   BrowserRouter as Router,
@@ -29,9 +29,9 @@ import {
 
 
 const Home = () => (
-  <div> 
-    <h2>TKTL notes app</h2> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+  <div>
+    <h2>TKTL notes app</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </div>
 )
 
@@ -97,7 +97,7 @@ const Login = (props) => {
           <TextField label="username" />
         </div>
         <div>
-          <TextField  label="password" type='password' />
+          <TextField label="password" type='password' />
         </div>
         <div>
           <Button variant="contained" color="primary" type="submit">
@@ -131,12 +131,12 @@ const App = () => {
     }
   ])
 
-  const [user, setUser] = useState(null) 
-  const [message, setMessage] = useState(null) 
+  const [user, setUser] = useState(null)
+  const [message, setMessage] = useState(null)
 
   const match = useMatch('/notes/:id')
 
-  const note = match 
+  const note = match
     ? notes.find(note => note.id === Number(match.params.id))
     : null
 
@@ -171,13 +171,13 @@ const App = () => {
           </Button>
           <Button color="inherit" component={Link} to="/users">
             users
-          </Button>   
+          </Button>
           {user
             ? <em>{user} logged in</em>
             : <Button color="inherit" component={Link} to="/login">
-                login
-              </Button>
-          }                              
+              login
+            </Button>
+          }
         </Toolbar>
       </AppBar>
 
@@ -191,12 +191,12 @@ const App = () => {
         }
       </div>
       <Routes>
-        <Route path="/notes/:id" element={<Note note={note} />} />  
-        <Route path="/notes" element={<Notes notes={notes} />} />   
+        <Route path="/notes/:id" element={<Note note={note} />} />
+        <Route path="/notes" element={<Notes notes={notes} />} />
         <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
         <Route path="/login" element={<Login onLogin={login} />} />
-        <Route path="/" element={<Home />} />      
-      </Routes>   
+        <Route path="/" element={<Home />} />
+      </Routes>
       <div>
         <br />
         <em>Note app, Department of Computer Science 2022</em>
@@ -205,4 +205,4 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(<Router><App /></Router>)
