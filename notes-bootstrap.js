@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { useState } from 'react'
 import { Table, Form, Button, Alert, Navbar, Nav } from 'react-bootstrap'
 
@@ -13,9 +13,9 @@ import {
 } from "react-router-dom"
 
 const Home = () => (
-  <div> 
-    <h2>TKTL notes app</h2> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+  <div>
+    <h2>TKTL notes app</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </div>
 )
 
@@ -76,19 +76,19 @@ const Login = (props) => {
       <h2>login</h2>
       <Form onSubmit={onSubmit}>
         <Form.Group>
-            <Form.Label>username:</Form.Label>
-            <Form.Control
-              type="text"
-              name="username"
-            />
-            <Form.Label>password:</Form.Label>
-            <Form.Control
-              type="password"
-            />
-            <Button variant="primary" type="submit">
-              login
-            </Button>
-          </Form.Group>
+          <Form.Label>username:</Form.Label>
+          <Form.Control
+            type="text"
+            name="username"
+          />
+          <Form.Label>password:</Form.Label>
+          <Form.Control
+            type="password"
+          />
+          <Button variant="primary" type="submit">
+            login
+          </Button>
+        </Form.Group>
       </Form>
     </div>
   )
@@ -116,12 +116,12 @@ const App = () => {
     }
   ])
 
-  const [user, setUser] = useState(null) 
+  const [user, setUser] = useState(null)
   const [message, setMessage] = useState(null)
 
   const match = useMatch('/notes/:id')
 
-  const note = match 
+  const note = match
     ? notes.find(note => note.id === Number(match.params.id))
     : null
 
@@ -139,11 +139,11 @@ const App = () => {
 
   return (
     <div className="container">
-        {(message &&
-          <Alert variant="success">
-            {message}
-          </Alert>
-        )}
+      {(message &&
+        <Alert variant="success">
+          {message}
+        </Alert>
+      )}
 
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -163,18 +163,18 @@ const App = () => {
                 ? <em>{user} logged in</em>
                 : <Link to="/login">login</Link>
               }
-          </Nav.Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
       <Routes>
-        <Route path="/notes/:id" element={<Note note={note} />} />  
-        <Route path="/notes" element={<Notes notes={notes} />} />   
+        <Route path="/notes/:id" element={<Note note={note} />} />
+        <Route path="/notes" element={<Notes notes={notes} />} />
         <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
         <Route path="/login" element={<Login onLogin={login} />} />
-        <Route path="/" element={<Home />} />      
-      </Routes>   
+        <Route path="/" element={<Home />} />
+      </Routes>
       <div>
         <br />
         <em>Note app, Department of Computer Science 2022</em>
@@ -183,4 +183,4 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(<Router><App /></Router>)
