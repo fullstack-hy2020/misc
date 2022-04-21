@@ -12,10 +12,10 @@ import {
   TextField,
   Button,
   AppBar,
-  Toolbar
+  Toolbar,
+  Alert
 } from '@mui/material'
 
-import Alert from '@mui/material/Alert'
 
 import {
   BrowserRouter as Router,
