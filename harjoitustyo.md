@@ -32,16 +32,18 @@ Ilman työaikakirjanpitoa työtä ei voi arvostella.
 
 ## Työn valmistuminen ja arvostelu
 
-Kun työsi on valmis arvosteltavaksi, ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin:
+Kun työsi on valmis arvosteltavaksi, tee KAIKKI seuraavista askeleista
+
+(1) Ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin:
 - FS harjoitustyö (5 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-cdc701c5-f817-41cc-8b47-ad2cb690c546
 - FS harjoitustyö (7 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d
 - FS harjoitustyö (10 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c
 
-Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
+(2) Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
-ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
+(3) lähetä email osoitteeseen matti.luukkainen@helsinki.fi Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
-Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
+HUOM: työtä ei arvostella jos KAIKKIA kolmea vaihetta ei ole tehty
 
 Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
 
