@@ -39,5 +39,5 @@ jobs:
 .yml file is used by GitHub Actions to run each command and deploy your app onto the fly server, making sure to use the API token we created in step (3) 
 
 - commit your now updated repo with all these changes (git add .,  git commit -m "<commit msg>", git push)
-- now you can head to https://github.com/<yourGitAccount>/<yourRepoName>/actions and see the progress, if everything goes well, your app will be deployed
+- now you can head to _https://github.com/<yourGitAccount>/<yourRepoName>/actions_ and see the progress, if everything goes well, your app will be deployed
 -- I had an issue with flyctl apps create where it did not recreate a .toml file - you can either use an old .toml file but just edit the app = ... to have the same name as the app created on the fly dashboard, or do another fly launch, but just don't deploy directly from the CLI
