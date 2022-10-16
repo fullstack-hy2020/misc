@@ -2,7 +2,7 @@
 
 In some cases (the cause is so far unknown) running Fly.io on Windows WSL has caused problems. If the following command just hangs
 
-´´´bash
+´´´
 flyctl ping -o personal
 ´´´
 
@@ -21,7 +21,7 @@ The steps to setup GitHub Actions for your project are followng:
 (you can double check your fly.toml file has app = "<your app name on the dashboard>" to make sure it's pointing to the correct app)
 - Create a new directory tree from the root directory leading to a main.yml file::  .github/workflows/main.yml with these contents: 
 
-´´´yml
+´´´
 name: Fly Deploy
 on: [push]
 env:
