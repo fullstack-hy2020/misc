@@ -40,5 +40,6 @@ jobs:
 - Commit your now-updated repo with all these changes (`git add .`,  `git commit -m "<commit msg>"`, `git push`)
 - You can head to `https://github.com/<yourGitAccount>/<yourRepoName>/actions` and see github Actions in-progress; your app will be deploy if everything checks out
 - Now whenever there is a new commit, Github Actions will redeploy your app automatically! You can read more about this github feature [here](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow).
+- If on future commits the react app on Fly.io shows a blank screen with an error 404 for a `.js` build file, try to `ctrl-F5` / clean-reload the tab to clear cache - if you think fly.io app isn't up to date, you can rerun a Github Action: head to the Actions tab, click on the most recent workflow runs, then the button _rerun all jobs_.
 
 Big thanks [Leon Poon](https://github.com/Sheceido) for writing this!
