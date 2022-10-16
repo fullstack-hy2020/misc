@@ -40,3 +40,5 @@ jobs:
 - Commit your now-updated repo with all these changes (`git add .`,  `git commit -m "<commit msg>"`, `git push`)
 - You can head to `https://github.com/<yourGitAccount>/<yourRepoName>/actions` and see github Actions in-progress; your app will be deploy if everything checks out
 - Now whenever there is a new commit, Github Actions will redeploy your app automatically! You can read more about this github feature [here](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow).
+
+Big thanks [Leon Poon](https://github.com/Sheceido) for writing this!
