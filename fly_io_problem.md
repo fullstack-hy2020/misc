@@ -1,6 +1,6 @@
 ## Problems connectiong to Fly.io
 
-In some cases (the cause is so far unknown) running Fly.io on Windows WSL has caused problems. If the following command just hangs
+In some cases (the cause is so far unknown) running Fly.io especially on Windows WSL has caused problems. If the following command just hangs
 
 ```bash
 flyctl ping -o personal
@@ -16,7 +16,7 @@ The steps to setup GitHub Actions for your project are followng:
 - create a secret key in fly and save it somewhere https://fly.io/user/personal_access_tokens
 - go to your github repo https://github.com/<yourGitAccount>/<yourRepoName>/settings , head to 'Secrets ' => 'Actions', and then create a repo secret key FLY_API_TOKEN 
 - reclone your repo so that you have an updated repo locally (you can delete the old files before recloning)
-- Edit .gitignore and remove fly.toml... this file will need to be pushed into the repository to allow deployment to happen.
+- Edit .gitignore and remove fly.toml. This file will need to be pushed into the repository to allow deployment to happen.
 - Run flyctl apps create to create a fly.toml file (this will create a new app in your dashboard... remember to fly auth login to make sure you're authenticated) 
 (you can double check your fly.toml file has app = "<your app name on the dashboard>" to make sure it's pointing to the correct app)
 - Create a new directory tree from the root directory leading to a main.yml file::  .github/workflows/main.yml with these contents: 
