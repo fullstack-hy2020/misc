@@ -37,8 +37,6 @@ Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrs
 
 In the email you need to specify your student number and GitHub account
 
-If you have a private repository, add users mluukkai and kaltsoon as collaborators.
+If you have a private repository, add users mluukkai, outisa and sinikala as collaborators.
 
 If your work has more than one repository, add links to other repositories to your main repository readme file.
-
-The project must be returned by 14.3.2023. at 23:59 Finnish time.
