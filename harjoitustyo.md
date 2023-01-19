@@ -45,8 +45,6 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 **HUOM: työtä ei arvostella jos KAIKKIA kolmea vaihetta ei ole tehty**
 
-Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
+Jos repositorio on privaatti lisää käyttäjät mluukkai, outisa ja sinikala collaboraattoriksi.
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
-
-Harjoitustyöt tulee palauttaa 14.3.2023 klo 23:59 mennessä.
