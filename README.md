@@ -59,10 +59,13 @@ sequenceDiagram
     
     Note left of user: User fills in login form with username and password
     user->>browser: login button pressed
+    
+    activate backend
     browser->>backend: HTTP POST /api/login { username, password }
     
     Note left of backend: backend generates a TOKEN that identifies user
     backend-->>browser: TOKEN returned as message body
+    deactivate backend
     
     Note left of browser: browser saves the TOKEN
     
@@ -70,7 +73,7 @@ sequenceDiagram
     
     user ->> browser: create note button pressed
     browser ->> backend: HTTP POST /api/notes { content } TOKEN in header
-    Note left of backend: backend identifies userfrom the TOKEN
+    Note left of backend: backend identifies user from the TOKEN
 
     backend -->> browser: 201 created
 ```
