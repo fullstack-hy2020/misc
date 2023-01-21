@@ -48,3 +48,16 @@ sequenceDiagram
 
     Note right of browser: The browser executes the callback function that renders the notes 
 ```
+
+## part4d, diagram
+
+```mermaid
+sequenceDiagram
+    participant user
+    participant browser
+    participant backend
+    
+    Note left of user: User fills in login form with username and password
+    user-->>browser: login button pressed
+
+```
