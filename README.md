@@ -63,7 +63,7 @@ sequenceDiagram
     activate backend
     browser->>backend: HTTP POST /api/login { username, password }
     
-    Note left of backend: backend generates a TOKEN that identifies user
+    Note left of backend: backend generates a TOKEN that identifies the user
     backend-->>browser: TOKEN returned as message body
     deactivate backend
     
@@ -74,7 +74,7 @@ sequenceDiagram
     
     activate backend
     browser ->> backend: HTTP POST /api/notes { content } TOKEN in header
-    Note left of backend: backend identifies user from the TOKEN
+    Note left of backend: backend identifies the user from the TOKEN
 
     backend -->> browser: 201 created
     deactivate backend
