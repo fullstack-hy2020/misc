@@ -69,11 +69,13 @@ sequenceDiagram
     
     Note left of browser: browser saves the TOKEN
     
-    Note left of user: User creates a note
-    
+    Note left of user: User creates a note 
     user ->> browser: create note button pressed
+    
+    activate backend
     browser ->> backend: HTTP POST /api/notes { content } TOKEN in header
     Note left of backend: backend identifies user from the TOKEN
 
     backend -->> browser: 201 created
+    deactivate backend
 ```
