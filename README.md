@@ -58,6 +58,10 @@ sequenceDiagram
     participant backend
     
     Note left of user: User fills in login form with username and password
-    user-->>browser: login button pressed
+    user->>browser: login button pressed
+    browser->>backend: HTTP POST /api/login { username, password }
+    
+    Note left of backend: backend generates TOKEN that identifies user
+    backend-->>browser: TOKEN returned as message body  
 
 ```
