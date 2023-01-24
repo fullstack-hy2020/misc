@@ -4,7 +4,11 @@ In the project you create an application of your choice with React and/or Node. 
 
 The backend for the application does not have to be in Node. Backend does not have to be self made, ready interfaces or services such as Firebase will do. Frontend is also possible to make with some other reasonable way than React, e.g. with Vue.js, in which case it is recommended for the application have a Node backend.
 
-Amount of credits is determined by the working hours, where one credit is 17.5 hours. The limits are 87.5 hours for 5 credits, 122.5 hours for 7 credits and 175 hours for 10 credits. The grading is pass/fail. To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
+Amount of credits is determined by the working hours, where one credit is 17.5 hours. The limits are 87.5 hours for 5 credits, 122.5 hours for 7 credits and 175 hours for 10 credits. 
+
+The grading is pass/fail. 
+
+To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
 
 It is also possible to do the project as a pair or a team.
 
@@ -16,13 +20,22 @@ There is no need to register for the course if you are using the technologies th
 
 ## Requirements for the returned application
 
-At the README of your repository has to have a link to an address, where the application is running. If you're creating a mobile application, demo will be scheduled individually.
+- In README of your repository you have to have all of the following:
+  - Link to an address, where the application is running. If you're creating a mobile application, demo will be scheduled individually.
+  - Some user instructions and explanation of the purpose of your project (ie. what does it do).
+    - Optionally, you can write them in a separate documentation file. In this case add a link to them in your README.   
+  - Link to work hours listing. Do it as a .md, pdf, or in some way that is immediately visible (ie. no file download required) Minimum precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). The time keeping **must include the total sum of spent hours**. Time keeping and repository commit history must reasonably match each other. Do intermediate commits! If working with a pair or a group, everyone keeps their own hours.
+  - If your project is split into several repositories, a link to the other repositories
 
-Also, in the README a link to use instructions and working hours keeping are required. Precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). The time keeping **must include the total sum of spent hours**.
+- Your repository and code base must be presentable. No out-commented or otherwise unused code or such.
 
-Time keeping and repository commit history must match each other in reason. Do intermediate commits!
 
-If working with a pair or a group, everyone keeps their own hours.
+If some of the above mentioned requirements are not satisfied when applying for credits, your project will most likely not be graded and you will be asked to fix them.
+
+Why?
+
+Your repository is your greeting card especially when applying for a job. No recruiter will appreciate having to dig through a messy repository to evaluate your skills. (Neither will instructors) Many will not do it at all. It's a good idea to stick to good practices whenever possible. 
+
 
 ## Finishing the application and grading
 
@@ -38,5 +51,3 @@ Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrs
 In the email you need to specify your student number and GitHub account
 
 If you have a private repository, add users mluukkai, outisa and sinikala as collaborators.
-
-If your work has more than one repository, add links to other repositories to your main repository readme file.
