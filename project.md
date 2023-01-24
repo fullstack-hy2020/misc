@@ -20,7 +20,7 @@ There is no need to register for the course if you are using the technologies th
 
 ## Requirements for the returned application
 
-- In README of your repository you have to have all of the following:
+- In the README of your repository you must have all of the following:
   - Link to an address, where the application is running. If you're creating a mobile application, demo will be scheduled individually.
   - Some user instructions and explanation of the purpose of your project (ie. what does it do).
     - Optionally, you can write them in a separate documentation file. In this case add a link to them in your README.   
