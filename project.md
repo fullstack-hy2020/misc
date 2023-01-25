@@ -8,15 +8,18 @@ Amount of credits is determined by the working hours, where one credit is 17.5 h
 
 The grading is pass/fail. 
 
-To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
+You will automatically get a failing grade if the application is not done by yourself or if the hour keeping and GitHub commit history do not match reasonably. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
 
 Reviewing course material, however, _does not_ count.
 
-However it is expected that the used hours show in the end product in some way. If eg. applying for 10 credits and your application has only one or two functionalities, you might be asked to expand your project a bit.
+**For a passing grade** it is expected that the used hours show in the end product in some meaningful way. If eg. applying for 10 credits, we expect that your application has more than one or two functionalities. An example of a good base line is that your application performs various database operations, ie. CRUD operations (create, read, update, and save). Alternatively it employs only some (but more than one) of them in various ways. Testing and for example automating the deployment pipeline and other such notable configurations are naturally positively counted towards your project's scale.  
+
+
+If you project has very limited functionalities/techniques, you might be asked to expand your project a bit, especially for the 7 and 10 credit versions.
 
 It is also possible to do the project as a pair or a team.
 
-The telegram channel for the Full Stack Course https://t.me/fullstackcourse works also for this project.
+The Discord channel for the Full Stack Course https://study.cs.helsinki.fi/discord/join/fullstack works also for this project.
 
 ## Attending and registering your subject
 
@@ -26,15 +29,18 @@ There is no need to register for the course if you are using the technologies th
 
 - In the README of your repository you must have all of the following:
   - Link to an address, where the application is running. If you're creating a mobile application, demo will be scheduled individually.
-  - Some user instructions and explanation of the purpose of your project (ie. what does it do).
-    - Optionally, you can write them in a separate documentation file. In this case add a link to them in your README.   
-  - Link to work hours listing. Do it as a .md, pdf, or in some way that is immediately visible (ie. no file download required) Minimum precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). The time keeping **must include the total sum of spent hours**. Time keeping and repository commit history must reasonably match each other. Do intermediate commits! If working with a pair or a group, everyone keeps their own hours.
+  - Some user instructions and explanation of the purpose of your project (ie. what does it do), or a link to them 
+  - Link to work hours listing. Do it as a .md, pdf, or in some way that is immediately visible (ie. no file download required) 
+    - Sufficient precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md)
+    - The time keeping **must include the total sum of spent hours**
+    - Time keeping and repository commit history must reasonably match each other. Do intermediate commits!
+    - If working with a pair or a group, everyone keeps their own hours.
   - If your project is split into several repositories, a link to the other repositories
 
 - Your repository and code base must be presentable. No out-commented or otherwise unused code or such.
 
 
-If some of the above mentioned requirements are not satisfied when applying for credits, your project will most likely not be graded and you will be asked to fix them.
+If some of the above mentioned requirements are not satisfied when applying for credits, your project will not be graded and you will be asked to fix them.
 
 Why?
 
@@ -43,15 +49,19 @@ Your repository is your greeting card especially when applying for a job. No rec
 
 ## Finishing the application and grading
 
-When your application is ready to be graded, register in open university to a course instance that corresponds your working hours
+When your project is ready for grading **do ALL of the following**:
+
+(1) Register in open university to a course instance that corresponds your working hours
 - FS project (5 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-cdc701c5-f817-41cc-8b47-ad2cb690c546
 - FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d
 - FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c
 
-Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
+(2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
-**and send an email** to matti.luukkainen@helsinki.fi
+(3) **and send an email** to matti.luukkainen@helsinki.fi
 
 In the email you need to specify your student number and GitHub account
+
+**The project will not be graded untill ALL THREE steps have been completed**
 
 If you have a private repository, add users mluukkai, outisa and sinikala as collaborators.
