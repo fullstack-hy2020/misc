@@ -6,9 +6,18 @@ Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella
 
 Sovelluksen backendia ei siis ole pakko toteuttaa Nodella. Backendia ei myöskään tarvitse toteuttaa itse, valmiit rajapinnat tai palvelut kuten Firebase kelpaavat. Frontend on mahdollista tehdä myös jollain muulla järkevällä tavalla kuin Reactilla, esim. Vue.js:llä. Tällöin olisi hyvä jos sovelluksella olisi Nodella tehty backend.
 
-Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. 5 opintopisteen suoritukseen tarvitaan vähintään 87.5 tunnin työskentely, 7 opintopisteen suritukseen 122.5 tunnin työskentely ja 10 opintopisteen suoritus edellyttää vähintään 175 työtuntia. Työ arvostellaan skaalalla hyväksytty/hylätty. Hylkäämiseen voi johtaa ainoastaa se, että et ole itse tehnyt työtäsi tai jos tuntikirjanpito ja GitHub-repositorion commit-historia eivät vastaa toisiaan. Työtunteihin lasketaan kaikki sovelluksen tekemiseen käytetty aika, eli vaikka tekisit backendin jollain muulla tekniikalla kuin Nodella, lasketaan se silti työaikaan.
+Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. 5 opintopisteen suoritukseen tarvitaan vähintään 87.5 tunnin työskentely, 7 opintopisteen suritukseen 122.5 tunnin työskentely ja 10 opintopisteen suoritus edellyttää vähintään 175 työtuntia. 
+
+Työ arvostellaan skaalalla hyväksytty/hylätty. 
+
+Työsi voidaan hylätä suoraan mikäli et ole itse tehnyt työtäsi tai jos tuntikirjanpito ja GitHub-repositorion commit-historia eivät vastaa kohtuullisesti toisiaan. Työtunteihin lasketaan kaikki sovelluksen tekemiseen käytetty aika, eli vaikka tekisit backendin jollain muulla tekniikalla kuin Nodella, lasketaan se silti työaikaan.
 
 Työtunteihin _ei lasketa_ kurssin asioiden kertaamiseen käytettyä aikaa.
+
+**Hyväksytty suoritus** edellyttää, että käytetyt tunnit näkyvät myös sovelluksesi toiminnallisuuksissa ja ominaisuuksissa.
+Esimerkiksi 10 opintopisteen työhön edellytetään useampaa kuin yhtä tai kahta toiminnallisuutta. Hyvä lähtökohta on esim. se, että sovelluksesi toteuttaa monipuolisia tietokantatoimintoja, eli CRUD-toiminnot (_create, read, update_ ja _delete_). Vaihtoehtoisesti sovelluksesi toteuttaa osaa (mutta ei vain yhtä) näistä monipuolisesti. Testaus ja esimerkiksi deployauksen automatisointi ja muu huomattava konfigurointi luonnollisesti lasketaan laajuuteen.
+
+Mikäli sovelluksesi sisältää hyvin rajallisesti toimintoja, voidaan etenkin 7 ja 10 opintopisteen suorituksiin sinua pyytää täydentämään sovellustasi. 
 
 Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
@@ -20,15 +29,25 @@ Jos käytät harjoitustyössä kurssilta tuttuja tekniikoita, ei aiheen hyväksy
 
 ## Vaatimukset palautettavalle työlle
 
-GitHub-repositoriosi README.md-tiedostossa tulee olla linkki osoitteeseen, missä sovellus on käynnissä. Expolla toteutetun React Native mobiilisovelluksen kohdalla repositoriossa tulee olla [julkinen linkki](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish), jonka kautta sovelluksen voi käynnistää Expon mobiilisovelluksessa. Muissa tapauksissa sovitaan sovelluksen demoamisesta tapauskohtaisesti.
+- Projektirepositoriosi README-tiedosta **tulee löytyä** seuraavat asiat:
+  - Linkki osoitteeseen, jossa sovelluksesi on käynnissä. Expolla toteutetun React Native mobiilisovelluksen kohdalla repositoriossa tulee olla [julkinen linkki](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish), jonka kautta sovelluksen voi käynnistää Expon mobiilisovelluksessa. Muissa tapauksissa sovitaan sovelluksen demoamisesta tapauskohtaisesti
+  - Lyhyt kuvaus sovelluksestasi (mitä se tekee?) sekä jonkinlaiset käyttöohjeet (tai linkki niihin)
+  - Linkki tuntikirjanpitoon. Kirjanpito oltava "heti nähtävässä" -muodossa, eli ei erikseen ladattavana excelinä. Käytä esim. markdownia (.md)
+    - Riittävä kirjanpidon tarkkuus on suunnilleen [tämä](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md)
+    - Työaikakirjanpidosta **on myös selvittävä työtuntien yhteenlaskettu määrä**
+    - Työaikakirjanpidon ja repositorion commit-historian tulee vastata toisiaan kohtuullisessa määrin. Tee siis välicommiteja!
+    - Pari- tai ryhmätöissä jokaisen on pidettävä omaa työaikakirjanpitoa
+  - Jos työsi on useassa repositoriossa, linkit muihin repositorioihin
 
-README:stä täytyy myös löytyä linkki sovelluksen käyttöohjeisiin sekä työaikakirjanpitoon. Sopiva tarkkuustaso työaikakirjanpidolle on [tämä](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). Työaikakirjanpidosta **on myös selvittävä työtuntien yhteenlaskettu määrä**.
+- Repositoriosi ja koodikantasi on oltava edustuskelpoisessa tilassa. Ei poiskommentoitua tai muuten käyttämätöntä koodia.
 
-Työaikakirjanpidon ja repositorion commit-historian tulee vastata toisiaan kohtuullisessa määrin. Tee siis välicommiteja!
 
-Pari- tai ryhmätöissä jokaisen on pidettävä omaa työaikakirjanpitoa.
+Jos ylläolevat edellytykset eivät täyty pyytäessäsi kurssisuoritusta, sinua tullaan joka tapauksessa pyytämään täydentämään ne ennen tarkastuksen etenemistä.
 
-Ilman työaikakirjanpitoa työtä ei voi arvostella.
+Miksi?
+
+Repositoriosi on käynttikorttisi, eritoten alan työnhaussa. Rekrytoijat eivät arvosta, mikäli joutuvat penkomaan sotkuista repoa saadakseen kuvan osaamisestasi ja luomuksestasi. (Eivät myöskään projektin tarkastajat.) Monet rekrytoijat eivät edes vaivaudu vaan siirtyvät eteenpäin. On suotavaa harjoittaa hyviä käytänteitä aina kun mahdollista.
+
 
 ## Työn valmistuminen ja arvostelu
 
@@ -47,4 +66,3 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 Jos repositorio on privaatti lisää käyttäjät mluukkai, outisa ja sinikala collaboraattoriksi.
 
-Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
