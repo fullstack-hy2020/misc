@@ -10,7 +10,7 @@ The grading is pass/fail.
 
 To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
 
-However it is expected that the used hours show in the end product in some way. If eg. applying for 10 credits and your application has only one or two functionalities, you might be asked to expand you project a bit.
+However it is expected that the used hours show in the end product in some way. If eg. applying for 10 credits and your application has only one or two functionalities, you might be asked to expand your project a bit.
 
 It is also possible to do the project as a pair or a team.
 
