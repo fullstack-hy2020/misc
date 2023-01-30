@@ -177,10 +177,14 @@ const App = () => {
       </Routes>
       <div>
         <br />
-        <em>Note app, Department of Computer Science 2022</em>
+        <em>Note app, Department of Computer Science 2023</em>
       </div>
     </div>
   )
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<Router><App /></Router>)
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Router>
+    <App />
+  </Router>
+ )
