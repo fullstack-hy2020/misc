@@ -135,7 +135,7 @@ const App = () => {
       </Router>
       <div>
         <br />
-        <em>Note app, Department of Computer Science 2022</em>
+        <em>Note app, Department of Computer Science 2023</em>
       </div>
     </div>
   )
