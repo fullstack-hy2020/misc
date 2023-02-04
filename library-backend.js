@@ -1,4 +1,6 @@
-const { ApolloServer, gql } = require('apollo-server')
+const { ApolloServer } = require('@apollo/server')
+const { startStandaloneServer } = require('@apollo/server/standalone')
+
 
 let authors = [
   {
@@ -92,7 +94,7 @@ let books = [
   },
 ]
 
-const typeDefs = gql`
+const typeDefs = `
   type Query {
   }
 `
@@ -107,6 +109,8 @@ const server = new ApolloServer({
   resolvers,
 })
 
-server.listen().then(({ url }) => {
+startStandaloneServer(server, {
+  listen: { port: 4000 },
+}).then(({ url }) => {
   console.log(`Server ready at ${url}`)
 })
