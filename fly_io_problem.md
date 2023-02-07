@@ -1,4 +1,4 @@
-## Problems connectiong to Fly.io
+## Problems connecting to Fly.io
 
 In some cases (the cause is so far unknown) running Fly.io especially on Windows WSL has caused problems. If the following command just hangs
 
@@ -8,9 +8,9 @@ flyctl ping -o personal
 
 your computer can not for some reason connect to Fly.io
 
-If you run to this problem, you might try [GitHub Actions](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/), (that is the topic of the [part 11](https://fullstackopen.com/en/part11) of this course). With GitHub actions you can ask GitHub to deploy the app to the Fly.io.
+If you run to this problem, you might try [GitHub Actions](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/), (that is the topic of the [part 11](https://fullstackopen.com/en/part11) of this course). With GitHub actions you can ask GitHub to deploy the app onto Fly.io.
 
-The steps to setup GitHub Actions for your project are followng:
+The steps to setup GitHub Actions for your project are as follows:
 
 - Delete your current (non-functioning) apps on fly.io in your dashboard https://fly.io/dashboard
 - Create a secret key in fly at https://fly.io/user/personal_access_tokens and hold on to it
