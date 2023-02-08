@@ -39,6 +39,6 @@ const data = [
         "gender": "male",
         "occupation": "Digital evangelist"
     }
-]
+];
 
 export default data;
