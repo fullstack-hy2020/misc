@@ -78,4 +78,4 @@ const data = [
   }
 ];
 
-export defaut data;
+export default data;
