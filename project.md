@@ -52,9 +52,9 @@ Your repository is your greeting card especially when applying for a job. No rec
 When your project is ready for grading **do ALL of the following**:
 
 (1) Register in open university to a course instance that corresponds your working hours
-- FS project (5 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-cdc701c5-f817-41cc-8b47-ad2cb690c546
-- FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d
-- FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c
+- FS project (5 credits):  https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-ba589ba3-603f-4e56-bc88-654494549567
+- FS project (7 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-d9404272-3391-4315-8036-ec48abb9192f)
+- FS project (10 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-85bb770f-ef2f-4bde-984d-5c753bf6a442)
 
 (2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
@@ -65,3 +65,5 @@ In the email you need to specify your student number and GitHub account
 **The project will not be graded untill ALL THREE steps have been completed**
 
 If you have a private repository, add users mluukkai, outisa and sinikala as collaborators.
+
+The review takes roughly 4 weeks. You will get some feedback on your project as a GitHub issue.
