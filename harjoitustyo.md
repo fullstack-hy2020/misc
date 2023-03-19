@@ -41,22 +41,20 @@ Jos käytät harjoitustyössä kurssilta tuttuja tekniikoita, ei aiheen hyväksy
 
 - Repositoriosi ja koodikantasi on oltava edustuskelpoisessa tilassa. Ei poiskommentoitua tai muuten käyttämätöntä koodia.
 
-
 Jos ylläolevat edellytykset eivät täyty pyytäessäsi kurssisuoritusta, sinua tullaan joka tapauksessa pyytämään täydentämään ne ennen tarkastuksen etenemistä.
 
 Miksi?
 
 Repositoriosi on käynttikorttisi, eritoten alan työnhaussa. Rekrytoijat eivät arvosta, mikäli joutuvat penkomaan sotkuista repoa saadakseen kuvan osaamisestasi ja luomuksestasi. (Eivät myöskään projektin tarkastajat.) Monet rekrytoijat eivät edes vaivaudu vaan siirtyvät eteenpäin. On suotavaa harjoittaa hyviä käytänteitä aina kun mahdollista.
 
-
 ## Työn valmistuminen ja arvostelu
 
 Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 (1) Ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin:
-- FS harjoitustyö (5 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-cdc701c5-f817-41cc-8b47-ad2cb690c546
-- FS harjoitustyö (7 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d
-- FS harjoitustyö (10 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c
+- FS harjoitustyö (5 op): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-cdc701c5-f817-41cc-8b47-ad2cb690c546](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-ba589ba3-603f-4e56-bc88-654494549567)
+- FS harjoitustyö (7 op): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-d9404272-3391-4315-8036-ec48abb9192f)
+- FS harjoitustyö (10 op): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-85bb770f-ef2f-4bde-984d-5c753bf6a442)
 
 (2) Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
@@ -66,3 +64,4 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 Jos repositorio on privaatti lisää käyttäjät mluukkai, outisa ja sinikala collaboraattoriksi.
 
+Arvostelussa kestää noin 4 viikkoa. Saat arvosteluun liittyvän koodikatselmoinnin projektiisi GitHub-issuena
