@@ -17,7 +17,9 @@ Työtunteihin _ei lasketa_ kurssin asioiden kertaamiseen käytettyä aikaa.
 **Hyväksytty suoritus** edellyttää, että käytetyt tunnit näkyvät myös sovelluksesi toiminnallisuuksissa ja ominaisuuksissa.
 Esimerkiksi 10 opintopisteen työhön edellytetään useampaa kuin yhtä tai kahta toiminnallisuutta. Hyvä lähtökohta on esim. se, että sovelluksesi toteuttaa monipuolisia tietokantatoimintoja, eli CRUD-toiminnot (_create, read, update_ ja _delete_). Vaihtoehtoisesti sovelluksesi toteuttaa osaa (mutta ei vain yhtä) näistä monipuolisesti. Testaus ja esimerkiksi deployauksen automatisointi ja muu huomattava konfigurointi luonnollisesti lasketaan laajuuteen.
 
-Mikäli sovelluksesi sisältää hyvin rajallisesti toimintoja, voidaan etenkin 7 ja 10 opintopisteen suorituksiin sinua pyytää täydentämään sovellustasi. 
+Mikäli sovelluksesi sisältää hyvin rajallisesti toimintoja, voidaan etenkin 7 ja 10 opintopisteen suorituksiin sinua pyytää täydentämään sovellustasi.
+
+**Huomaa:** Ei riitä, että tekemäsi toiminnallisuus toimii vain omalla koneella, vaan samat ominaisuudet tulisi olla testattavissa myös osoitteessa, jossa sovelluksesi on käynnissä.
 
 Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
