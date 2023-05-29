@@ -17,7 +17,7 @@ Reviewing course material, however, _does not_ count.
 
 If you project has very limited functionalities/techniques, you might be asked to expand your project a bit, especially for the 7 and 10 credit versions.
 
-**Please note:** It is not sufficient that implemented features work only on your machine, but they also must work in your application that is deployed to internet. 
+**Please note:** It is not sufficient that implemented features work only on your machine, but they also must work in your application that is deployed to the internet. 
 
 It is also possible to do the project as a pair or a team.
 
