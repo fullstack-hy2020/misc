@@ -38,7 +38,7 @@ let authors = [
  *
  * Spanish:
  * Podría tener más sentido asociar un libro con su autor almacenando la id del autor en el contexto del libro en lugar del nombre del autor
- * Sin embargo, por simplicidad, almacenaremos el nombre del autor en conección con el libro
+ * Sin embargo, por simplicidad, almacenaremos el nombre del autor en conexión con el libro
 */
 
 let books = [
