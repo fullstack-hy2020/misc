@@ -54,9 +54,9 @@ Your repository is your greeting card especially when applying for a job. No rec
 When your project is ready for grading **do ALL of the following**:
 
 (1) Register in open university to a course instance that corresponds your working hours
-- FS project (5 credits):  https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-ba589ba3-603f-4e56-bc88-654494549567
-- FS project (7 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-a1b99420-600c-42ea-81ab-7bdad3a8800d](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-d9404272-3391-4315-8036-ec48abb9192f)
-- FS project (10 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-67e986ac-78ad-4e2b-aef7-e01cc7f4ec3c](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-85bb770f-ef2f-4bde-984d-5c753bf6a442)
+- FS project (5 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-213e3838-c757-4839-bdb9-69dc7e23571c
+- FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-b67feb5c-664a-4114-ad93-a7b982f938dc
+- FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b8aaeb0-d19b-43ab-9fc7-496f027776c4
 
 (2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
