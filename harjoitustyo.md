@@ -1,12 +1,10 @@
 # Full Stack -websovelluskehitys harjoitustyö 5, 7 tai 10 op
 
-> Tätä harjoitustyötä *ei lasketa* aineopintojen harjoitustyöksi, joita vaaditaan tietojenkäsittelytieteen pääaineopiskelijoilta 2 kappaletta, eli et voi korvata Full Stack -harjoitustyöllä esim. tiralabraa.
-
 Harjoitustyössä toteutetaan vapaavalintainen sovellus Reactilla ja/tai Nodella. Myös React Nativella toteutettu mobiilisovellus on mahdollinen.
 
 Sovelluksen backendia ei siis ole pakko toteuttaa Nodella. Backendia ei myöskään tarvitse toteuttaa itse, valmiit rajapinnat tai palvelut kuten Firebase kelpaavat. Frontend on mahdollista tehdä myös jollain muulla järkevällä tavalla kuin Reactilla, esim. Vue.js:llä. Tällöin olisi hyvä jos sovelluksella olisi Nodella tehty backend.
 
-Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. 5 opintopisteen suoritukseen tarvitaan vähintään 87.5 tunnin työskentely, 7 opintopisteen suoritukseen 122.5 tunnin työskentely ja 10 opintopisteen suoritus edellyttää vähintään 175 työtuntia. 
+Opintopistemäärä määrittyy käytettyjen työtuntien mukaan, yksi opintopiste vastaa 17.5 tuntia. 5 opintopisteen suoritukseen tarvitaan vähintään 87.5 tunnin työskentely, 7 opintopisteen suoritukseen 122.5 tunnin työskentely ja 10 opintopisteen suoritus edellyttää vähintään 175 työtuntia. Jokaista opintopistettä kohti on laskettu myös tapahtuvan 9.5 tuntia omatomista harjoitustyössä käytettävien tekniikoiden opiskelua.
 
 Työ arvostellaan skaalalla hyväksytty/hylätty. 
 
