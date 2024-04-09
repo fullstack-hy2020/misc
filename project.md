@@ -4,7 +4,7 @@ In the project you create an application of your choice with React and/or Node. 
 
 The backend for the application does not have to be in Node. Backend does not have to be self made, ready interfaces or services such as Firebase will do. Frontend is also possible to make with some other reasonable way than React, e.g. with Vue.js, in which case it is recommended for the application have a Node backend.
 
-Amount of credits is determined by the working hours, where one credit is 17.5 hours. The limits are 87.5 hours for 5 credits, 122.5 hours for 7 credits and 175 hours for 10 credits. 
+Amount of credits is determined by the working hours, where one credit is 17.5 hours. The limits are 87.5 hours for 5 credits, 122.5 hours for 7 credits and 175 hours for 10 credits. It is also calculated that 9.5 hours of independent study of the techniques used in the practice work will take place for each credit.
 
 The grading is pass/fail. 
 
