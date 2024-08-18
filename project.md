@@ -41,13 +41,11 @@ There is no need to register for the course if you are using the technologies th
 
 - Your repository and code base must be presentable. No out-commented or otherwise unused code or such.
 
-
 If some of the above mentioned requirements are not satisfied when applying for credits, your project will not be graded and you will be asked to fix them.
 
 Why?
 
 Your repository is your greeting card especially when applying for a job. No recruiter will appreciate having to dig through a messy repository to evaluate your skills. (Neither will instructors) Many will not do it at all. It's a good idea to stick to good practices whenever possible. 
-
 
 ## Finishing the application and grading
 
@@ -66,6 +64,6 @@ In the email you need to specify your student number and GitHub account
 
 **The project will not be graded untill ALL THREE steps have been completed**
 
-If you have a private repository, add users mluukkai and shootingstar91 as collaborators.
+If you have a private repository, add users mluukkai and hremonen as collaborators.
 
 The review takes roughly 4 weeks. You will get some feedback on your project as a GitHub issue.
