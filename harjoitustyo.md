@@ -27,6 +27,44 @@ Full Stack -kurssin Discord-kanava https://study.cs.helsinki.fi/discord/join/ful
 
 Jos käytät harjoitustyössä kurssilta tuttuja tekniikoita, ei aiheen hyväksymistä tarvita. Jos käytät jotain muita tekniikoita, varmista, että aihe sopii lähettämällä emailia osoitteeseen matti.luukkainen@helsinki.fi
 
+## Ohjeet video-tutoriaalien käyttämiseen
+
+Video-tutoriaalit voivat olla hyödyllinen tapa oppia uusia taitoja ja ymmärtää konsepteja, erityisesti kun aloitat uuden teknologian tai kehyksen käytön. Kuitenkin full stack -kurssin projektissa on tärkeää osoittaa oma ymmärryksesi ja kurssilla oppimasi taidot. Varmistaaksesi, että projektisi heijastaa henkilökohtaisia taitojasi ja ponnistelujasi, noudata näitä ohjeita käyttäessäsi video-oppaita referenssinä:
+
+### 1. Käytä tutoriaaleja oppimiseen, Ei suoraan kopiointiin
+- **Tarkoitus:** Video-tutoriaalit tulisi nähdä oppimateriaaleina, jotka auttavat ymmärtämään konsepteja, eikä suoraan kopioitavina malleina.
+- **Odotus:** Opetusvideon katsomisen jälkeen sovella oppimaasi tietoa rakentaaksesi jotain ainutlaatuista tai laajentaaksesi videon esimerkkisovellusta omilla ominaisuuksillasi.
+
+### 2. Tee merkittäviä muutoksia
+- **Omaperäisyys:** Projektisi tulisi erota merkittävästi opetusvideosta. Tämä voi sisältää muutoksia käyttöliittymään, lisättyjä ominaisuuksia, erilaista toiminnallisuutta tai eri teknologiapinon käyttöä.
+- **Muutosesimerkkejä:**
+  - Uusien ominaisuuksien lisääminen, joita ei käsitellä videossa (esim. käyttäjäprofiilit, ilmoitukset, hakutoiminnallisuus).
+  - Erilaisten tai kehittyneempien tekniikoiden toteuttaminen (esim. API-integraatio, eri tietokannan käyttö).
+  - Sovelluksen tyylin muuttaminen tai vaihtoehtoisen frontend-kehyksen käyttö.
+
+### 3. Lisää uniikkeja ominaisuuksia
+- **Mukauttaminen:** Lisää ominaisuuksia, joita ei ollut mukana opetusvideossa, esitelläksesi taitojasi. Nämä voivat olla kurssin tavoitteisiin liittyviä ominaisuuksia tai sellaisia, jotka parantavat käyttäjäkokemusta.
+- **Esimerkkejä ainutlaatuisista ominaisuuksista:**
+  - Sosiaalisen median sovelluksessa: Ryhmien lisääminen, chat-toiminnallisuus tai kuvan latausominaisuus.
+  - Verkkokauppa-sovelluksessa: Toivelista, arvostelut tai maksuyhdyskäytävä.
+
+### 4. Selitä erot selkeästi
+- **Dokumentointi:** Projektin palautuksen yhteydessä liitä mukaan lyhyt dokumentti, jossa selität, mitkä osat sovelluksestasi olivat inspiroituneet opetusvideosta ja mitä muutoksia tai parannuksia teit.
+- **Perustelu:** Kerro, miksi valitsit tehdä nämä muutokset ja kuinka ne parantavat tai erottavat projektiasi alkuperäisestä.
+
+### 5. Mene perusasioiden yli
+- **Kehittyneet ominaisuudet:** Osoittaaksesi ymmärryksesi, harkitse kehittyneiden ominaisuuksien lisäämistä, joita ei käsitelty opetusvideossa, kuten:
+  - **CI/CD pipelinet:** Jatkuvan integraation ja käyttöönoton määrittäminen sovellukselle.
+  - **Testaus:** Yksikkötestien, integraatiotestien tai end-to-end -testien toteuttaminen.
+  - **Validointi:** Käyttäjätunnistus, datan validointi ja herkän tiedon turvallinen käsittely.
+
+### 6. Vältä plagiointia
+- **Oma työ:** Koodin kopioiminen suoraan opetusvideosta ilman muutoksia katsotaan plagioinniksi. Projektin tulee heijastaa omia ponnistelujasi ja ymmärrystäsi.
+- **Lähteen mainitseminen:** Jos käytät tiettyjä koodiesimerkkejä tai ideoita videosta, varmista, että annat asianmukaisen kunnianlauseen koodikommenteissa tai dokumentaatiossa.
+
+Noudattamalla näitä ohjeita voit käyttää video-oppaita tehokkaasti oppimisvälineenä varmistaen samalla, että projektisi heijastaa omaa luovuuttasi ja taitojasi.
+
+
 ## Vaatimukset palautettavalle työlle
 
 - Projektirepositoriosi README-tiedosta **tulee löytyä** seuraavat asiat:
