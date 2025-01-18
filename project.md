@@ -102,6 +102,6 @@ In the email you need to specify your student number and GitHub account
 
 **The project will not be graded untill ALL THREE steps have been completed**
 
-If you have a private repository, add users mluukkai and hremonen as collaborators.
+If you have a private repository, add user mluukkai as a collaborator.
 
 The review takes roughly 4 weeks. You will get some feedback on your project as a GitHub issue.
