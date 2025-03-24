@@ -92,7 +92,7 @@ When your project is ready for grading **do ALL of the following**:
 (1) Register in open university to a course instance that corresponds your working hours
 - FS project (5 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-213e3838-c757-4839-bdb9-69dc7e23571c
 - FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-b67feb5c-664a-4114-ad93-a7b982f938dc
-- FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b8aaeb0-d19b-43ab-9fc7-496f027776c4
+- FS project (10 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b8aaeb0-d19b-43ab-9fc7-496f027776c4](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-37990742-5372-41ee-9bc9-a7f3795184b3)
 
 (2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
