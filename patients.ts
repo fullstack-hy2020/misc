@@ -20,7 +20,7 @@ const data = [
         "name": "Hans Gruber",
         "dateOfBirth": "1970-04-25",
         "ssn": "250470-555L",
-        "gender": "other",
+        "gender": "male",
         "occupation": "Technician"
     },
     {
