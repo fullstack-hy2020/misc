@@ -14,7 +14,6 @@ Reviewing course material, however, _does not_ count.
 
 **For a passing grade** it is expected that the used hours show in the end product in some meaningful way. If eg. applying for 10 credits, we expect that your application has more than one or two functionalities. An example of a good base line is that your application performs various database operations, ie. CRUD operations (create, read, update, and save). Alternatively it employs only some (but more than one) of them in various ways. Testing and for example automating the deployment pipeline and other such notable configurations are naturally positively counted towards your project's scale.  
 
-
 If you project has very limited functionalities/techniques, you might be asked to expand your project a bit, especially for the 7 and 10 credit versions.
 
 **Please note:** It is not sufficient that implemented features work only on your machine, but they also must work in your application that is deployed to the internet. 
@@ -64,11 +63,10 @@ Using video tutorials can be a helpful way to learn new skills and understand co
 
 By following these guidelines, you can use video tutorials effectively as a learning tool while ensuring that your project reflects your own creativity and skills.
 
-
 ## Requirements for the returned application
 
-- In the README of your repository you must have all of the following:
-  - Link to an address, where the application is running. If you're creating a mobile application, demo will be scheduled individually.
+- In the README of your repository, you must have all of the following:
+  - Link to an address where the application is running. If you're creating a mobile application, a demo will be scheduled individually.
   - Some user instructions and explanation of the purpose of your project (ie. what does it do), or a link to them 
   - Link to work hours listing. Do it as a .md, pdf, or in some way that is immediately visible (ie. no file download required) 
     - Sufficient precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md)
@@ -79,17 +77,17 @@ By following these guidelines, you can use video tutorials effectively as a lear
 
 - Your repository and code base must be presentable. No out-commented or otherwise unused code or such.
 
-If some of the above mentioned requirements are not satisfied when applying for credits, your project will not be graded and you will be asked to fix them.
+If some of the above mentioned requirements are not satisfied when applying for credits, your project will not be graded, and you will be asked to fix them.
 
 Why?
 
-Your repository is your greeting card especially when applying for a job. No recruiter will appreciate having to dig through a messy repository to evaluate your skills. (Neither will instructors) Many will not do it at all. It's a good idea to stick to good practices whenever possible. 
+Your repository is your greeting card, especially when applying for a job. No recruiter will appreciate having to dig through a messy repository to evaluate your skills. (Neither will instructors) Many will not do it at all. It's a good idea to stick to good practices whenever possible. 
 
 ## Finishing the application and grading
 
 When your project is ready for grading **do ALL of the following**:
 
-(1) Register in open university to a course instance that corresponds your working hours
+(1) Register in Open University to a course instance that corresponds to your working hours
 - FS project (5 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-213e3838-c757-4839-bdb9-69dc7e23571c](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-7b7d5cc3-2bb5-435d-8c33-752a51238f00)
 - FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-5b229b06-d94e-483d-becf-e50c0f30ac47 
 - FS project (10 credits): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b8aaeb0-d19b-43ab-9fc7-496f027776c4](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-37990742-5372-41ee-9bc9-a7f3795184b3)
@@ -100,8 +98,8 @@ When your project is ready for grading **do ALL of the following**:
 
 In the email you need to specify your student number and GitHub account
 
-**The project will not be graded untill ALL THREE steps have been completed**
+**The project will not be graded until ALL THREE steps have been completed**
 
-If you have a private repository, add users mluukkai and santeri0200 as a collaborator.
+If you have a private repository, add users mluukkai and outisa as collaborators.
 
 The review takes roughly 4 weeks. You will get some feedback on your project as a GitHub issue.
