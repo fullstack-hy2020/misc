@@ -137,10 +137,10 @@ const App = () => {
         <Route path="/login" element={<Login onLogin={login} />} />
         <Route path="/" element={<Home />} />
       </Routes>
-      <div>
+      <footer>
         <br />
         <em>Note app, Department of Computer Science 2022</em>
-      </div>
+      </footer>
     </div>
   )
 }
