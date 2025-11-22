@@ -67,7 +67,7 @@ Noudattamalla näitä ohjeita voit käyttää video-oppaita tehokkaasti oppimisv
 
 ## Vaatimukset palautettavalle työlle
 
-- Projektirepositoriosi README-tiedosta **tulee löytyä** seuraavat asiat:
+- Projektirepositoriosi **README-tiedosta tulee löytyä** seuraavat asiat:
   - Linkki osoitteeseen, jossa sovelluksesi on käynnissä. Expolla toteutetun React Native mobiilisovelluksen kohdalla repositoriossa tulee olla [julkinen linkki](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish), jonka kautta sovelluksen voi käynnistää Expon mobiilisovelluksessa. Muissa tapauksissa sovitaan sovelluksen demoamisesta tapauskohtaisesti
   - Lyhyt kuvaus sovelluksestasi (mitä se tekee?) sekä jonkinlaiset käyttöohjeet (tai linkki niihin)
   - Linkki tuntikirjanpitoon. Kirjanpito oltava "heti nähtävässä" -muodossa, eli ei erikseen ladattavana excelinä. Käytä esim. markdownia (.md)
