@@ -107,6 +107,6 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 **HUOM: työtä ei arvostella jos KAIKKIA kolmea vaihetta ei ole tehty**
 
-Jos repositorio on privaatti, lisää käyttäjät mluukkai, outisa ja vejol collaboraattoriksi.
+Jos repositorio on privaatti, lisää käyttäjät mluukkai ja vejol collaboraattoriksi.
 
 Arvostelussa kestää noin 4 viikkoa. Saat arvosteluun liittyvän koodikatselmoinnin projektiisi GitHub-issuena.
