@@ -103,7 +103,9 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 (2) Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
-(3) Lähetä email osoitteeseen matti.luukkainen@helsinki.fi Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
+(3) Lähetä email osoitteeseen matti.luukkainen@helsinki.fi
+
+- Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
 (4) Jos repositorio on privaatti, lisää käyttäjät **mluukkai** ja **vejol** collaboraattoriksi.
 

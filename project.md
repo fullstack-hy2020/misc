@@ -102,7 +102,7 @@ When your project is ready for grading **do ALL of the following**:
 
 (2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
-(3) **and send an email** to matti.luukkainen@helsinki.fi
+(3) Send an email to matti.luukkainen@helsinki.fi
 
 - In the email you need to specify your student number and GitHub account
 
