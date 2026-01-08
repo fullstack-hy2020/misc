@@ -104,10 +104,10 @@ When your project is ready for grading **do ALL of the following**:
 
 (3) **and send an email** to matti.luukkainen@helsinki.fi
 
-In the email you need to specify your student number and GitHub account
+- In the email you need to specify your student number and GitHub account
 
-**The project will not be graded until ALL THREE steps have been completed**
+(4) If you have a private repository, add both users **mluukkai** and **vejol** as collaborators
 
-If you have a private repository, add both users **mluukkai** and **vejol** as collaborators.
+**The project will not be graded until ALL OF THE PRECEDING steps have been completed**
 
 The review takes roughly 4 weeks. You will get some feedback on your project as a GitHub issue.

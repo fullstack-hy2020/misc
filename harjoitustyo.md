@@ -103,10 +103,10 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 (2) Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
-(3) lähetä email osoitteeseen matti.luukkainen@helsinki.fi Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
+(3) Lähetä email osoitteeseen matti.luukkainen@helsinki.fi Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
-**HUOM: työtä ei arvostella jos KAIKKIA kolmea vaihetta ei ole tehty**
+(4) Jos repositorio on privaatti, lisää käyttäjät **mluukkai** ja **vejol** collaboraattoriksi.
 
-Jos repositorio on privaatti, lisää käyttäjät **mluukkai** ja **vejol** collaboraattoriksi.
+**HUOM: työtä ei arvostella jos KAIKKIA edeltäviä vaiheita ei ole tehty**
 
 Arvostelussa kestää noin 4 viikkoa. Saat arvosteluun liittyvän koodikatselmoinnin projektiisi GitHub-issuena.
