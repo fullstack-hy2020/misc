@@ -72,8 +72,7 @@ By following these guidelines, you can use video tutorials effectively as a lear
 ## Requirements for the returned application
 
 - In the README of your repository, you must have all of the following:
-
-  - Link to an address where the application is running. If you're creating a mobile application, a demo will be scheduled individually.
+  - Link to an address where the application is running. For a React Native mobile app built with Expo, the repository must include a [public link](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish) that allows the app to be launched in the Expo mobile app. In other cases, the app demo will be agreed on a case-by-case basis.
   - Some user instructions and explanation of the purpose of your project (ie. what does it do), or a link to them
   - Link to work hours listing. Do it as a .md, pdf, or in some way that is immediately visible (ie. no file download required)
     - Sufficient precision level for time keeping is [this](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md)
