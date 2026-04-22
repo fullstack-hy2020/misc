@@ -111,7 +111,7 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 (1) Ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin :
 
-- FS harjoitustyö (5 op): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-213e3838-c757-4839-bdb9-69dc7e23571c](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-7b7d5cc3-2bb5-435d-8c33-752a51238f00)
+- FS harjoitustyö (5 op): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-e534066a-d0e9-49b1-9208-62805f4d64c4>
 - FS harjoitustyö (7 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-5b229b06-d94e-483d-becf-e50c0f30ac47
 - FS harjoitustyö (10 op): [https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b8aaeb0-d19b-43ab-9fc7-496f027776c4](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-37990742-5372-41ee-9bc9-a7f3795184b3)
 
