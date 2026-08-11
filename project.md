@@ -114,13 +114,13 @@ When your project is ready for grading **do ALL of the following**:
 - FS project (7 credits): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-058bf15b-5d48-4531-815b-194ca947aeb3>
 - FS project (10 credits): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b1c3add-c6b4-4565-b3da-58bb63c41f4a>
 
-(2) Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
+(2) Fill out this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
 (3) Send an email to matti.luukkainen@helsinki.fi
 
 - In the email you need to specify your student number and GitHub account
 
-(4) If you have a private repository, add both users **mluukkai** and **vejol** as collaborators
+(4) If you have a private repository, add both users **mluukkai** and **ogkarhu** as collaborators
 
 **The project will not be graded until ALL OF THE PRECEDING steps have been completed**
 
