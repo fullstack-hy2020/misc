@@ -121,7 +121,7 @@ Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
 - Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
-(4) Jos repositorio on privaatti, lisää käyttäjät **mluukkai** ja **vejol** collaboraattoriksi.
+(4) Jos repositorio on privaatti, lisää käyttäjät **mluukkai** ja **ogkarhu** collaboraattoriksi.
 
 **HUOM: työtä ei arvostella jos KAIKKIA edeltäviä vaiheita ei ole tehty**
 
