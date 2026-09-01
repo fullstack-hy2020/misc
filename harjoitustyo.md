@@ -109,11 +109,11 @@ Repositoriosi on käyntikorttisi, eritoten alan työnhaussa. Rekrytoijat eivät 
 
 Kun työsi on valmis arvosteltavaksi, **tee KAIKKI seuraavista askeleista**
 
-(1) Ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin :
+(1) Ilmoittaudu oikean kokoiseen kurssiin:
 
-- FS harjoitustyö (5 op): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-e534066a-d0e9-49b1-9208-62805f4d64c4>
-- FS harjoitustyö (7 op): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-058bf15b-5d48-4531-815b-194ca947aeb3>
-- FS harjoitustyö (10 op): <https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-0b1c3add-c6b4-4565-b3da-58bb63c41f4a>
+- FS harjoitustyö (5 op): <https://sisu.helsinki.fi/student/courseunit/otm-ecc4bc8e-938f-4af2-b9a3-f71533ed2732/open-university/otm-5fdedfae-a087-42d8-be7a-71437e99bfe8?token=V92HDDUZSJ>
+- FS harjoitustyö (7 op): <https://sisu.helsinki.fi/student/courseunit/otm-3ccee448-b666-4c82-a721-8a020dab095a/open-university/otm-4a271d2e-8c6c-4ad2-b522-9bc0dcc203c9?token=F7EADTZAXG>
+- FS harjoitustyö (10 op): <https://sisu.helsinki.fi/student/courseunit/otm-2cefe17b-6903-4eff-b093-494f1b88ff8a/open-university/otm-1afb7a39-0ee6-4854-ad17-9722f2749a15?token=LQPD9XZDTX>
 
 (2) Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
