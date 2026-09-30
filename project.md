@@ -18,7 +18,8 @@ Reviewing course material, however, _does not_ count.
 
 If you project has very limited functionalities/techniques, you might be asked to expand your project a bit, especially for the 7 and 10 credit versions.
 
-**Please note:** It is not sufficient that implemented features work only on your machine, but they also must work in your application that is deployed to the internet.
+**Please note:** It is not sufficient that implemented features work only on your machine, but they also must work in your application that is deployed to the internet. University of Helsinki students have access to Kubernetes based OKD-cluster for project deployments. This is NOT applicable 
+to Open University/Mooc students. 
 
 It is also possible to do the project as a pair or a team.
 
@@ -64,6 +65,16 @@ If some of the above mentioned requirements are not satisfied when applying for 
 Why?
 
 Your repository is your greeting card, especially when applying for a job. No recruiter will appreciate having to dig through a messy repository to evaluate your skills. (Neither will instructors) Many will not do it at all. It's a good idea to stick to good practices whenever possible.
+
+
+## Deploying on OKD-cluster
+
+University of Helsinki students have access to Kubernetes based OKD-cluster for project deployments. This is NOT applicable 
+to Open University/Mooc students. 
+To use the cluster please apply by sending an email with your student id/username to `grp-okd-cs-admins@helsinki.fi`.
+Access is always granted until end of next May, making the maximum access time one year. Access is granted as 
+self-provisioner permission, but more on that and usage of the cluster in the [guide](https://version.helsinki.fi/toska-k8s/okd-tikettimylly/-/wikis/Cluster-Usage).
+
 
 ## Finishing the application and grading
 

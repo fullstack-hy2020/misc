@@ -19,7 +19,7 @@ Esimerkiksi 10 opintopisteen työhön edellytetään useampaa kuin yhtä tai kah
 
 Mikäli sovelluksesi sisältää hyvin rajallisesti toimintoja, voidaan etenkin 7 ja 10 opintopisteen suorituksiin sinua pyytää täydentämään sovellustasi.
 
-**Huomaa:** Ei riitä, että tekemäsi toiminnallisuus toimii vain omalla koneella, vaan samat ominaisuudet tulisi olla testattavissa myös osoitteessa, jossa sovelluksesi on käynnissä.
+**Huomaa:** Ei riitä, että tekemäsi toiminnallisuus toimii vain omalla koneella, vaan samat ominaisuudet tulisi olla testattavissa myös osoitteessa, jossa sovelluksesi on käynnissä. Helsingin yliopiston tutkinto-opiskelijoilla on käytössä yliopiston kubernetes pohjainen OKD-klusteri.
 
 Harjoitustyö on mahdollista tehdä myös pari- tai ryhmätyönä.
 
@@ -65,6 +65,15 @@ Jos ylläolevat edellytykset eivät täyty pyytäessäsi kurssisuoritusta, sinua
 Miksi?
 
 Repositoriosi on käyntikorttisi, eritoten alan työnhaussa. Rekrytoijat eivät arvosta, mikäli joutuvat penkomaan sotkuista repoa saadakseen kuvan osaamisestasi ja luomuksestasi. (Eivät myöskään projektin tarkastajat.) Monet rekrytoijat eivät edes vaivaudu vaan siirtyvät eteenpäin. On suotavaa harjoittaa hyviä käytänteitä aina kun mahdollista.
+
+## Deployment OKD-klusterilla
+
+Helsingin yliopiston tutkinto-opiskelijoiden käytössä on yliopiston kubernetes pohjainen OKD-klusteri. Klusteri EI ole avoimen yliopiston opiskelijoiden käytössä. Projektin klusterille lisäämistä varten tulee pyytää tarvittavat käyttöoikeudet lähettämällä sähköpostia
+osoitteeseen `grp-okd-cs-admins@helsinki.fi`. Sähköpostissa tulisi olla yliopiston käyttäjätunnuksesi. Käyttöoikeus myönnetään aina seuraavaan toukokuun loppuun, maksimissaan siis vuodeksi. Käyttöoikeus tarkalleen annetaan provisiointi-oikeutena, tästä ja klusterin käytöstä 
+tarkemmin [ohjeessa](https://version.helsinki.fi/toska-k8s/okd-tikettimylly/-/wikis/Klusterin-K%C3%A4ytt%C3%B6). 
+
+
+
 
 ## Työn valmistuminen ja arvostelu
 
