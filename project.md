@@ -75,6 +75,8 @@ To use the cluster please apply by sending an email with your student id/usernam
 Access is always granted until end of next May, making the maximum access time one year. Access is granted as 
 self-provisioner permission, but more on that and usage of the cluster in the [guide](https://version.helsinki.fi/toska-k8s/okd-tikettimylly/-/wikis/Cluster-Usage).
 
+Boilerplate example of a cluster deployment [https://github.com/mluukkai/fs-boilerplate](https://github.com/mluukkai/fs-boilerplate)
+
 
 ## Finishing the application and grading
 
