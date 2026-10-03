@@ -72,6 +72,8 @@ Helsingin yliopiston tutkinto-opiskelijoiden käytössä on yliopiston kubernete
 osoitteeseen `grp-okd-cs-admins@helsinki.fi`. Sähköpostissa tulisi olla yliopiston käyttäjätunnuksesi. Käyttöoikeus myönnetään aina seuraavaan toukokuun loppuun, maksimissaan siis vuodeksi. Käyttöoikeus tarkalleen annetaan provisiointi-oikeutena, tästä ja klusterin käytöstä 
 tarkemmin [ohjeessa](https://version.helsinki.fi/toska-k8s/okd-tikettimylly/-/wikis/Klusterin-K%C3%A4ytt%C3%B6). 
 
+Boilerplate esimerkkitoteutus klusteri deploymentista [https://github.com/mluukkai/fs-boilerplate](https://github.com/mluukkai/fs-boilerplate)
+
 
 
 
